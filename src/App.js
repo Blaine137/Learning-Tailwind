@@ -31,6 +31,27 @@ function App() {
       </div>
 
       <img class="w-16 mx-auto md:w-32 lg:w-64" src={logo}/>
+
+      <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl my-8">
+        <div class="md:flex">
+          <div class="md:flex-shrink-0">
+            <img class="h-48 w-full object-cover md:w-48" src={blaine} alt="Man looking at item at a store"/>
+          </div>
+          <div class="p-8">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
+            <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
+            <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="my-8">
+        <input class="border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent ..." placeholder="Your Email" />
+        <button class=" p-1 bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white ...">
+          Sign up
+        </button>
+      </form>
+      
     </div>
   );
 }
